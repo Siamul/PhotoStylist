@@ -6,4 +6,4 @@ https://github.com/Spenhouet/automated-deep-photo-style-transfer/releases/downlo
 
 Extract the zip and put the contents in a folder named "weights"
 
-Other weights will be automatically download the first time you run the code.
+Other weights will be automatically downloaded the first time you run the code.
