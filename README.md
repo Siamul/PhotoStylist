@@ -8,6 +8,12 @@ Images from evaluation experiments are available here: https://www.dropbox.com/s
 
 You have to download the MVSO dataset and update the location in the code. We have provided a small subset of the MVSO dataset that is able to run the code for the content.jpg and style.txt provided.
 
-To run the code use:
+The instructions below show you how to run the code.
 
-python3 photostylist.py --content_image <path_to_content_image_file> --style_text <path_to_style_text_file>
+For running the test example:
+
+>> python3 photostylist.py
+
+For running using your own content image and style text (remember to download and use MVSO dataset):
+
+>> python3 photostylist.py --content_image <path_to_content_image_file> --style_text <path_to_style_text_file>
