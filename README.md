@@ -1,5 +1,5 @@
 # PhotoStylist
-This repository contains the code for the paper "PhotoStylist: Altering the Style of Images based on the Connotations of Texts". 
+This repository contains the code for the paper "PhotoStylist: Altering the Style of Photos based on the Connotations of Texts". 
 The implementation is done using Tensorflow. 
 
 You have to download the weights in the link: https://drive.google.com/file/d/1ZdS6fe11aaVzhbrc5fyLOvuyAeOLG0pd/view?usp=sharing and extract it to "weights/" folder.
