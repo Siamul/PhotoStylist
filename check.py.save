@@ -1,0 +1,2 @@
+from components.segmentation import compute_segmentation
+https://github.com/Spenhouet/automated-deep-photo-style-transfer.git

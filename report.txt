@@ -1,0 +1,196 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 21 files
+Detected 3 issues that require attention
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+File: ./style_transfer.py
+--------------------------------------------------------------------------------
+./style_transfer.py:200:4: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: ./components/utilities.py
+--------------------------------------------------------------------------------
+./components/utilities.py:51:4: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+File: ./components/segmentation.py
+--------------------------------------------------------------------------------
+./components/segmentation.py:57:20: WARNING: tf.image.resize_bilinear called with align_corners argument, requires manual check: align_corners is not supported by tf.image.resize, the new default transformation is close to what v1 provided. If you require exactly the same transformation as before, use compat.v1.image.resize_bilinear.
+================================================================================
+Detailed log follows:
+
+================================================================================
+================================================================================
+Input tree: '.'
+================================================================================
+--------------------------------------------------------------------------------
+Processing file './check.py'
+ outputting to './check.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './label_checker.py'
+ outputting to './label_checker.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './color_checker.py'
+ outputting to './color_checker.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './poetic_style_transfer.py'
+ outputting to './poetic_style_transfer.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './style_transfer.py'
+ outputting to './style_transfer.py'
+--------------------------------------------------------------------------------
+
+200:4: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './eval.py'
+ outputting to './eval.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/anp_matcher.py'
+ outputting to './components/anp_matcher.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/path.py'
+ outputting to './components/path.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/utilities.py'
+ outputting to './components/utilities.py'
+--------------------------------------------------------------------------------
+
+51:4: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/semantic_merge.py'
+ outputting to './components/semantic_merge.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/global_variables.py'
+ outputting to './components/global_variables.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/matting.py'
+ outputting to './components/matting.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/__init__.py'
+ outputting to './components/__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/segmentation.py'
+ outputting to './components/segmentation.py'
+--------------------------------------------------------------------------------
+
+50:18: INFO: Added keywords to args of function 'tf.shape'
+57:20: WARNING: tf.image.resize_bilinear called with align_corners argument, requires manual check: align_corners is not supported by tf.image.resize, the new default transformation is close to what v1 provided. If you require exactly the same transformation as before, use compat.v1.image.resize_bilinear.
+57:20: INFO: Changed tf.image.resize_bilinear call to tf.image.resize(..., method=tf.image.ResizeMethod.BILINEAR).
+59:20: INFO: Added keywords to args of function 'tf.argmax'
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/PSPNet/__init__.py'
+ outputting to './components/PSPNet/__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/PSPNet/network.py'
+ outputting to './components/PSPNet/network.py'
+--------------------------------------------------------------------------------
+
+274:15: INFO: Changing keep_prob arg of tf.nn.dropout to rate, and recomputing value.
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/PSPNet/model.py'
+ outputting to './components/PSPNet/model.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/VGG19/__init__.py'
+ outputting to './components/VGG19/__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/VGG19/model.py'
+ outputting to './components/VGG19/model.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/NIMA/__init__.py'
+ outputting to './components/NIMA/__init__.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Processing file './components/NIMA/model.py'
+ outputting to './components/NIMA/model.py'
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
