@@ -6,7 +6,7 @@ You have to download the weights in the link: https://drive.google.com/file/d/1Z
 
 Images from evaluation experiments are available here: https://www.dropbox.com/sh/72le3da95awweib/AAATFrvU4IC0X2LBUw_FhTuRa
 
-You have to download the MVSO dataset and update the location in the code. We have provided a small test dataset that is able to run the code for the content.jpg and style.txt provided.
+You have to download the MVSO dataset and update the location in the code. We have provided a small subset of the MVSO dataset that is able to run the code for the content.jpg and style.txt provided.
 
 To run the code use:
 
