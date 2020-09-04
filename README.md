@@ -10,4 +10,4 @@ You have to download the MVSO dataset and update the location in the code. We ha
 
 To run the code use:
 
-python3 photostylist.py --content_image <path_to_content_image> --style_text <path_to_style_text>
+python3 photostylist.py --content_image <path_to_content_image_file> --style_text <path_to_style_text_file>
