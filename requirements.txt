@@ -7,3 +7,6 @@ sematch
 keras
 pillow
 opencv-python
+flair
+wget
+gensim
