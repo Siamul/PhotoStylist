@@ -17,3 +17,5 @@ For running the test example:
 For running using your own content image and style text (remember to download and use MVSO dataset):
 
 >> python3 photostylist.py --content_image <path_to_content_image_file> --style_text <path_to_style_text_file>
+
+To view the data from the evaluation survey, use the "Evaluation_Graphs.ipynb" IPython Notebook. It contains codes to generate the graphs presented in the paper as well.
