@@ -21,8 +21,7 @@ from components.utilities import mask_for_tf_with_color, get_unique_colors_from_
 import cv2
 #from color_transfer import color_transfer
 
-dataset_location = '/content/drive/My Drive/mvsoDataset/'
-#dataset_location = '/home/skhan22/fake_data/'
+dataset_location = './ToyDataset'
 
 class tag:
     def __init__(self, text, pos):
