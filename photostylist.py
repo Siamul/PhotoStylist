@@ -217,7 +217,7 @@ def write_metadata(dir, args, load_segmentation):
 if __name__ == "__main__":
     """Parse program arguments"""
     parser = argparse.ArgumentParser()
-    parser.add_argument("--content_image", type=str, help="content image path", default="content.png")
+    parser.add_argument("--content_image", type=str, help="content image path", default="content.jpg")
     parser.add_argument("--style_text", type=str, help="style text file path", default="style.txt")
     parser.add_argument("--output_image", type=str, help="Output image path, default: result.jpg",
                         default="result.jpg")
