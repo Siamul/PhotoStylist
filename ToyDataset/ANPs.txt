@@ -1,0 +1,10 @@
+'colorful_sky', 
+'plastic_bag', 
+'big_mountain', 
+'fantastic_flower', 
+'dark_field', 
+'small_tree', 
+'rough_sea', 
+'small_ball', 
+'traditional_building', 
+'colored_light'
