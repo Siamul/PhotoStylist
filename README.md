@@ -9,10 +9,6 @@ You have to download the MVSO dataset and update the location in the code. Or, y
 
 The instructions below show you how to run the code.
 
-For running the test example:
-
->> python3 photostylist.py
-
 For running using your own content image and style text (remember to download and use MVSO dataset):
 
 >> python3 photostylist.py --content_image <path_to_content_image_file> --style_text <path_to_style_text_file>
