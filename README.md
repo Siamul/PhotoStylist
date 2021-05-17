@@ -1,10 +1,11 @@
 # PhotoStylist
-This repository contains the code for the paper "PhotoStylist: Altering the Style of Photos based on the Connotations of Texts" accepted in PAKDD 2021. 
+This repository contains the code for the paper "PhotoStylist: Altering the Style of Photos based on the Connotations of Texts" published in PAKDD 2021. The paper can be found here: https://doi.org/10.1007/978-3-030-75762-5_51
+
 The implementation is done using Tensorflow. 
 
 You have to download the weights in the link: https://drive.google.com/file/d/1ZdS6fe11aaVzhbrc5fyLOvuyAeOLG0pd/view?usp=sharing and extract it to "weights/" folder.
 
-You have to download the MVSO dataset and update the location in the code. We have provided a toy dataset that is able to run the code for the content.jpg and style.txt provided.
+You have to download the MVSO dataset and update the location in the code. Or, you could make a toy dataset with images according to different ANPs and supply it to the model.
 
 The instructions below show you how to run the code.
 
